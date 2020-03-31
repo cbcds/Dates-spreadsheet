@@ -1,0 +1,36 @@
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #1eb980;
+    -fx-border-color: rgba(206, 255, 206, 0.49);
+}
+
+.table-cell {
+    -fx-border-color: rgba(180, 222, 180, 0.38);
+    -fx-border-radius: 1px;
+}
+
+.table-cell:selected {
+    -fx-background-color: rgba(255, 104, 89, 0.69);
+    -fx-border-color: #ff6859;
+    -fx-text-fill: #000000;
+}
+
+.text-field:focused {
+    -fx-border-color: #045d56;
+    -fx-background-insets: 0, 0, 0, 0;
+    -fx-background-radius: 0;
+}
+
+.text-field {
+    -fx-border-color: #045d56;
+    -fx-border-radius: 0;
+    -fx-select-on-focus:true;
+}
+
+.table-cell .text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 0;
+    -fx-select-on-focus:true;
+}
